@@ -1,0 +1,55 @@
+{
+    "endpoints": [
+      {
+        "name": "User Registration and Login",
+        "method": "POST",
+        "url": "/api/v1/auth/register"
+      },
+      {
+        "name": "Get User Profile",
+        "method": "GET",
+        "url": "/api/v1/users/:userId"
+      },
+      {
+        "name": "Update User Status or Profile Picture",
+        "method": "PATCH",
+        "url": "/api/v1/users/:userId"
+      },
+      {
+        "name": "Sending a Message",
+        "method": "POST",
+        "url": "/api/v1/messages/send"
+      },
+      {
+        "name": "Mark Message as Delivered or Seen",
+        "method": "PATCH",
+        "url": "/api/v1/messages/:messageId/status"
+      },
+      {
+        "name": "Send Friend Request",
+        "method": "POST",
+        "url": "/api/v1/friends/request"
+      },
+      {
+        "name": "Accept Friend Request",
+        "method": "PATCH",
+        "url": "/api/v1/friends/request/:requestId/accept"
+      },
+      {
+        "name": "Reject Friend Request",
+        "method": "PATCH",
+        "url": "/api/v1/friends/request/:requestId/reject"
+      },
+      {
+        "name": "Cancel Friend Request",
+        "method": "DELETE",
+        "url": "/api/v1/friends/request/:requestId"
+      },
+      {
+        "name": "List Friend Requests",
+        "method": "GET",
+        "url": "/api/v1/friends/requests"
+      }
+    ]
+  }
+  
