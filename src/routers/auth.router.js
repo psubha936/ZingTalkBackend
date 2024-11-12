@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const { login } = require('../api/v1/auth/auth.controller');
+
 
 /**
  * @swagger
@@ -31,8 +33,6 @@ const router = express.Router();
  *       401:
  *         description: Unauthorized
  */
-router.post('/login', (req, res) => {
-  res.send('Login route');
-});
+router.post('/login', login);
 
 module.exports = router;
