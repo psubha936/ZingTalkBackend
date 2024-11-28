@@ -21,6 +21,7 @@ module.exports = {
   },
   mail:{
     userMail:process.env.EMAIL_USER,
-    userPassword:  process.env.EMAIL_PASS
+    userPassword:  process.env.EMAIL_PASS,
+    user:process.env.USER_EMAIL
   }
 };
