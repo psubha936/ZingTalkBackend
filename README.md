@@ -2,6 +2,7 @@
 ZingTalk is a cutting-edge, real-time communication platform designed to revolutionize the way people connect. 
 
 ZingTalkBackend/
+
 │
 ├── config/                         # Configuration files for various services
 │   ├── config.js                   # General configuration (env vars, etc.)
